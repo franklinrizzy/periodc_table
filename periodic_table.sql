@@ -230,7 +230,7 @@ ALTER TABLE ONLY public.properties
 
 ALTER TABLE ONLY public.properties
     ADD CONSTRAINT fk_type_id FOREIGN KEY (type_id) REFERENCES public.types(type_id);
-
+-- fin
 
 --
 -- PostgreSQL database dump complete
